@@ -20,5 +20,9 @@ fi
 
 /usr/bin/start-pulseaudio-x11 &
 
+conky &
+
+display -window root -backdrop ~/.desktop.jpg &
+
 exec i3
 
