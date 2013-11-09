@@ -7,6 +7,8 @@
 # Executed by startx (run your window manager from here)
 #
 
+xrdb -merge ~/.Xresources
+
 ## Ensure that the D-Bus Communication System is running properly to fix
 ## File management, authentication, and other essential system processes
 
